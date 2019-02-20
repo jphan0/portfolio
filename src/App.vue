@@ -2,7 +2,7 @@
 
   <div id="app">
 
-    <Jumbo mainheading="James Phan" subtext="I am a full stack web developer based in Sydney, Australia. My passion is building simple, beautiful, functional user experiences. Check out some of my work below."></Jumbo>
+    <Jumbo mainheading="James Phan" subtext="I am a full stack web developer based in Sydney, Australia. My passion is building simple, beautiful, and functional user experiences. Check out some of my work below."></Jumbo>
 
     <Heading heading="Projects" id="projects"></Heading>
 

@@ -74,7 +74,7 @@ export default {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
-@import url(//db.onlinewebfonts.com/c/fb4b3fc0253f9898cdcb1b7ad0898477?family=CamphorW01-Thin);
+@import url(https://db.onlinewebfonts.com/c/fb4b3fc0253f9898cdcb1b7ad0898477?family=CamphorW01-Thin);
 
 h1 {
 	font-family: 'Cormorant Garamond', serif;
