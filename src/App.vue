@@ -1,28 +1,74 @@
 <template>
+
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <Jumbo mainheading="James Phan" subtext="I am a full stack web developer based in Sydney, Australia. My passion is building simple, beautiful, functional user experiences. Check out some of my work below."></Jumbo>
+
+    <Heading heading="Projects" id="projects"></Heading>
+
+    <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Feb 19" body="This page! This portfolio was built using VueJS and was an excellent learning experience in regards to front-end frameworks." classy="blur_back portfolio_back" href="http://jphan.info"></ProjectCard>
+
+    <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Dec 18 - Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." classy="blur_back mfmc_back" href="http://mfmc.jphan.info"></ProjectCard>
+
+    <ProjectCard title="ABC Filters" technologies="HTML5, CSS3, JS, Laravel" projectduration="Jul 18 - Dec 18" body="Applied techniques learnt throughout university - from web development to database design to project management. This web application was designed for a local business to automate their invoicing system and provide an updated responsive site design." classy="blur_back abcfilters_back"></ProjectCard>
+
+    <Heading heading="Contact" id="contact"></Heading>
+
+    <ContactLinks></ContactLinks>
+
+    <Footer footer="Made by James Phan"></Footer>
+
   </div>
+
 </template>
 
+
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ProjectCard from './components/ProjectCard.vue'
+
+import Jumbo from './components/Jumbo.vue'
+
+import Heading from './components/Heading.vue'
+
+import ContactLinks from './components/ContactLinks.vue'
+
+import Footer from './components/Footer.vue'
 
 export default {
+
   name: 'app',
-  components: {
-    HelloWorld
+
+  components: { ProjectCard, Jumbo, Heading, ContactLinks, Footer },
+
+  data() {
+
+    return {
+
+    }
+
   }
+
 }
+
 </script>
 
+
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+.mfmc_back {
+  background: url("~@/assets/img/mfmc.jpg");
 }
+
+.portfolio_back {
+  background: url("~@/assets/img/portfolio.jpg");
+}
+
+.abcfilters_back {
+  background: url("~@/assets/img/abcfilters.png");
+}
+
+
 </style>
