@@ -74,7 +74,7 @@ export default {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
-@import url(https://db.onlinewebfonts.com/c/fb4b3fc0253f9898cdcb1b7ad0898477?family=CamphorW01-Thin);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
 
 h1 {
 	font-family: 'Cormorant Garamond', serif;
@@ -82,7 +82,7 @@ h1 {
 }
 
 h3 {
-	font-family: 'CamphorW01-Thin', serif;
+	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	font-size: 1.5em;
 	color: #E3E3E3;
 	opacity: 0.8;
@@ -97,7 +97,7 @@ h1, h3 {
 
 a {
 	position: relative;
-	font-family: 'CamphorW01-Thin', serif;
+	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	text-decoration: none;
 	color: #E3E3E3;
 	font-size: 1.5em;
