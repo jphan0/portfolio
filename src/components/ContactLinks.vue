@@ -10,7 +10,7 @@
 
 		<span id="divider">||</span>
 
-		<a href="https://www.github.com/">GitHub</a>
+		<a href="https://github.com/jphan0">GitHub</a>
 
 	</div>
 
