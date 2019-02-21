@@ -23,7 +23,7 @@
 
 		<img class="profile-image" src="~@/assets/img/head.jpg"/>
 
-		<h1 class="display-3"> {{ mainheading }} </h1>
+		<h1> {{ mainheading }} </h1>
 
 		<h3> {{ subtext }} </h3>
 
@@ -73,17 +73,20 @@ export default {
 
 <style scoped>
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
 
 h1 {
 	font-family: 'Cormorant Garamond', serif;
 	padding-top: 20px;
+	font-size: 5em;
+	font-weight: 300;
 }
 
 h3 {
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.3em;
+	font-weight: 300;
 	color: #E3E3E3;
 	opacity: 0.8;
 	padding-top: 30px;
