@@ -23,7 +23,7 @@
 
 		<img class="profile-image" src="~@/assets/img/head.jpg"/>
 
-		<h1> {{ mainheading }} </h1>
+		<h1 class="display-3"> {{ mainheading }} </h1>
 
 		<h3> {{ subtext }} </h3>
 
@@ -79,7 +79,6 @@ export default {
 h1 {
 	font-family: 'Cormorant Garamond', serif;
 	padding-top: 20px;
-	font-size: 5em;
 	font-weight: 300;
 }
 
@@ -90,6 +89,7 @@ h3 {
 	color: #E3E3E3;
 	opacity: 0.8;
 	padding-top: 30px;
+	line-height: 1.6em;
 }
 
 h1, h3 {
