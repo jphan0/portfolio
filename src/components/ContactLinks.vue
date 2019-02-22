@@ -82,6 +82,11 @@ a:hover:before {
 	a {
 		padding: 10px;
 	}
+
+	a:before {
+	bottom: 5px;
+}
+
 }
 
 

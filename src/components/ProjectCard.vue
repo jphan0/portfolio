@@ -28,7 +28,7 @@
 
       <ul>
 
-        <li><a class="btn btn-light btn-sm shadow-sm bg-white rounded" :href="href"><slot></slot>Live Demo</a></li>
+        <li><a class="btn btn-light btn-sm shadow-sm bg-white rounded" :href="href"><slot></slot> {{ buttontext }} </a></li>
 
       </ul>
 
@@ -48,7 +48,7 @@
 
 export default {
 
-  props: ["title", "body", "technologies", "projectduration", "background", "classy", "href"],
+  props: ["title", "body", "technologies", "projectduration", "background", "classy", "href", "buttontext"],
 
 }
 

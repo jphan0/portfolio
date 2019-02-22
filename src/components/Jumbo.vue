@@ -4,15 +4,15 @@
 
 <div class="logo">
 
-	<a href="http://jphan.info"><img src="~@/assets/img/logo2.png" height="40px"></a>
+	<a href="http://jphan.info"><img src="~@/assets/img/logo.png" height="40px"></a>
 
 </div>
 
 <div class="navigation">
 
-	<a href="#" v-scroll-to="'#projects'">Projects</a>
+	<a href="#projects" v-scroll-to="'#projects'">Projects</a>
 
-	<a href="#" v-scroll-to="'#contact'">Contact</a>
+	<a href="#contact" v-scroll-to="'#contact'">Contact</a>
 
 </div>
 
@@ -29,17 +29,17 @@
 
 		<div class="icons text-center"> 
 
-			<span class="devicons devicon-html5-plain" title="html5"></span>
+			<span class="devicons devicon-html5-plain" title="HTML5"></span>
 
-			<span class="devicons devicon-css3-plain" title="css3"> </span>
+			<span class="devicons devicon-css3-plain" title="CSS3"> </span>
 
-			<span class="devicons devicon-sass-original" title="sass"></span>
+			<span class="devicons devicon-sass-original" title="SCSS"></span>
 
-			<span class="devicons devicon-javascript-plain" title="javascript"></span>
+			<span class="devicons devicon-javascript-plain" title="JavaScript"></span>
 
-			<span class="devicons devicon-laravel-plain" title="laravel"></span>
+			<span class="devicons devicon-laravel-plain" title="Laravel"></span>
 
-			<span class="devicons devicon-vuejs-plain" title="vue"></span>
+			<span class="devicons devicon-vuejs-plain" title="VueJS"></span>
 
 			<span class="devicons devicon-git-plain" title="git"> </span>
 
@@ -47,7 +47,7 @@
 
 		<div class="scroll-down text-center">
 
-			<a href="#" v-scroll-to="'#projects'"><i class="fas fa-chevron-down fa-2x"></i></a>
+			<a href="#projects" v-scroll-to="'#projects'"><i class="fas fa-chevron-down fa-2x"></i></a>
 
 		</div>
 
@@ -87,9 +87,9 @@ h3 {
 	font-size: 1.3em;
 	font-weight: 300;
 	color: #E3E3E3;
-	opacity: 0.8;
+	opacity: 0.85;
 	padding-top: 30px;
-	line-height: 1.6em;
+	line-height: 1.5em;
 }
 
 h1, h3 {
@@ -101,6 +101,7 @@ h1, h3 {
 a {
 	position: relative;
 	font-family: 'Montserrat', helvetica, arial, sans-serif;
+	font-weight: 300;
 	text-decoration: none;
 	color: #E3E3E3;
 	font-size: 1.5em;
@@ -162,7 +163,7 @@ a {
 	text-align: center;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
-	text-shadow: 2px 2px #000;
+	text-shadow: 1px 1px 5px #000;
 	min-height: 100vh;
 }
 
