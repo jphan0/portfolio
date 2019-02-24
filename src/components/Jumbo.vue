@@ -12,7 +12,7 @@
 
 	<a href="#projects" v-scroll-to="'#projects'">Projects</a>
 
-	<a href="#contact" v-scroll-to="'#contact'">Contact</a>
+	<a href="#contact" v-scroll-to="'#contact'" @click.ctrl="say('This is a little easter egg. Hello!')">Contact</a>
 
 </div>
 
@@ -63,7 +63,17 @@
 
 export default {
 
-  props: ["mainheading", "subtext"],
+	methods: {
+		
+		say: function (message) {
+		
+			alert(message)
+		
+		}
+	
+	},
+
+	props: ["mainheading", "subtext"],
 
 }
 
@@ -74,7 +84,7 @@ export default {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700,800");
 
 h1 {
 	font-family: 'Cormorant Garamond', serif;
@@ -87,7 +97,7 @@ h3 {
 	font-size: 1.3em;
 	font-weight: 300;
 	color: #E3E3E3;
-	opacity: 0.85;
+	opacity: 0.9;
 	padding-top: 30px;
 	line-height: 1.5em;
 }

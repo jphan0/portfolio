@@ -6,9 +6,13 @@
 
 		<span id="divider">||</span>
 
+		<span id="break"><br></span>
+
 		<a href="mailto:jphan@sent.com">jphan@sent.com</a>
 
 		<span id="divider">||</span>
+
+		<span id="break"><br></span>
 
 		<a href="https://github.com/jphan0">GitHub</a>
 
@@ -31,6 +35,10 @@ export default {
 
 
 <style scoped>
+
+#break {
+	display: none;
+}
 
 div {
 	padding-top: 50px;
@@ -77,6 +85,10 @@ a:hover:before {
 
 	#divider {
 		display: none;
+	}
+
+	#break {
+		display: block;
 	}
 
 	a {
