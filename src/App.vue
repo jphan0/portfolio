@@ -61,17 +61,28 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700,800");
 
-.mfmc_back {
-  background: url("~@/assets/img/mfmc.jpg");
+.no-webp .portfolio_back {
+  background-image: url("~@/assets/img/portfolio.jpg");
 }
 
-.portfolio_back {
-  background: url("~@/assets/img/portfolio.jpg");
+.webp .portfolio_back{
+  background-image: url("~@/assets/img/portfolio.webp");
 }
 
-.abcfilters_back {
-  background: url("~@/assets/img/abcfilters.png");
+.no-webp .mfmc_back {
+  background-image: url("~@/assets/img/mfmc.jpg");
 }
 
+.webp .mfmc_back{
+  background-image: url("~@/assets/img/mfmc.webp");
+}
+
+.no-webp .abcfilters_back {
+  background-image: url("~@/assets/img/abcfilters.png");
+}
+
+.webp .abcfilters_back{
+  background-image: url("~@/assets/img/abcfilters.webp");
+}
 
 </style>

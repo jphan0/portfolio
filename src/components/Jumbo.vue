@@ -4,7 +4,19 @@
 
 <div class="logo">
 
-	<a href="http://jphan.info"><img src="~@/assets/img/logo.png" height="40px"></a>
+	<a href="http://jphan.info">
+
+		<picture>
+
+			<source type="image/webp" srcset="~@/assets/img/logo.webp" height="40px">
+
+			<source type="image/jpeg" srcset="~@/assets/img/logo.png" height="40px">
+
+			<img src="~@/assets/img/logo.png" height="40px">
+
+		</picture>
+
+	</a>
 
 </div>
 
@@ -21,7 +33,15 @@
 
 	<div class="container">
 
-		<img class="profile-image" src="~@/assets/img/head.jpg"/>
+		<picture>
+
+			<source type="image/webp" srcset="~@/assets/img/head.webp">
+
+			<source type="image/jpeg" srcset="~@/assets/img/head.jpg">
+
+			<img class="profile-image" src="~@/assets/img/head.jpg">
+
+		</picture>
 
 		<h1 class="display-3"> {{ mainheading }} </h1>
 
@@ -174,8 +194,15 @@ a {
 	min-height: 100vh;
 }
 
+.no-webp .bg-cover {
+  background-image: url("~@/assets/img/nature-2.jpg");
+}
+
+.webp .bg-cover{
+  background-image: url("~@/assets/img/nature-2.webp");
+}
+
 .bg-cover {
-    background-image: url('~@/assets/img/nature-2.jpg');
 	background-size: cover;
 	color: white;
 	background-position: center center;
