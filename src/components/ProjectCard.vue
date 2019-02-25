@@ -58,8 +58,6 @@ export default {
 
 <style>
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
-
 * {
   box-sizing: border-box;
   margin: 0;

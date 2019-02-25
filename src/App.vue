@@ -58,6 +58,9 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700,800");
+
 .mfmc_back {
   background: url("~@/assets/img/mfmc.jpg");
 }
