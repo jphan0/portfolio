@@ -6,7 +6,7 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Feb 19" body="This page! This portfolio was built using VueJS and was an excellent learning experience in regards to front-end frameworks." classy="blur_back portfolio_back" href="http://jphan.info" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Feb 19" body="This page! This portfolio was built using VueJS and was an excellent entry point to JavaScript frameworks." classy="blur_back portfolio_back" href="http://jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Dec 18 - Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." classy="blur_back mfmc_back" href="http://mfmc.jphan.info" buttontext="Live Demo"></ProjectCard>
 
