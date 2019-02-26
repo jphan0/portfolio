@@ -49,19 +49,19 @@
 
 		<div class="icons text-center"> 
 
-			<span class="devicons devicon-html5-plain" title="HTML5"></span>
+			<img src="../assets/img/devicon/html5.svg" title="HTML5">
 
-			<span class="devicons devicon-css3-plain" title="CSS3"> </span>
+			<img src="../assets/img/devicon/css3.svg" title="CSS3">
 
-			<span class="devicons devicon-sass-original" title="SCSS"></span>
+			<img src="../assets/img/devicon/sass.svg" title="SCSS">
 
-			<span class="devicons devicon-javascript-plain" title="JavaScript"></span>
+			<img src="../assets/img/devicon/javascript.svg" title="JavaScript">
 
-			<span class="devicons devicon-laravel-plain" title="Laravel"></span>
+			<img src="../assets/img/devicon/laravel.svg" title="Laravel">
 
-			<span class="devicons devicon-vuejs-plain" title="VueJS"></span>
+			<img src="../assets/img/devicon/vuejs.svg" title="VueJS">
 
-			<span class="devicons devicon-git-plain" title="git"> </span>
+			<img src="../assets/img/devicon/git.svg" title="git">
 
 		</div>
 
@@ -226,11 +226,13 @@ a {
 	padding-top: 50px;
 }
 
-.icons span {
+.icons img {
 	padding: 10px;
-	font-size: 3em;
+	width: 7vh;
 	margin: 0px 6px;
-	opacity: 0.8;
+	opacity: 0.7;
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
 }
 
 .scroll-down a {
