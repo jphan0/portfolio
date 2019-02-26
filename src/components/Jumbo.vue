@@ -224,6 +224,7 @@ a {
 
 .icons {
 	padding-top: 50px;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .icons img {
@@ -315,9 +316,13 @@ a {
 	}
 }
 
-@media screen and (min-height: 900px) {
+@media screen and (min-height: 1500px) {
 	.jumbotron {
 		min-height: 50vh;
+	}
+
+	.icons img {
+	width: 4vh;
 	}
 }
 
