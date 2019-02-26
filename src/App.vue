@@ -57,54 +57,9 @@ export default {
 
 
 <style>
-/*
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700');
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,700,800");
-*/
 
-/* cormorant-garamond-300 - latin */
-@font-face {
-  font-family: 'Cormorant Garamond';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/cormorant-garamond-v6-latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Cormorant Garamond Light'), local('CormorantGaramond-Light'),
-       url('../fonts/cormorant-garamond-v6-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/cormorant-garamond-v6-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/cormorant-garamond-v6-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/cormorant-garamond-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/cormorant-garamond-v6-latin-300.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
-}
-
-/* montserrat-300 - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/montserrat-v12-latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Light'), local('Montserrat-Light'),
-       url('../fonts/montserrat-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v12-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v12-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
-}
-/* montserrat-regular - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-       url('../fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
-}
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400");
 
 .no-webp .portfolio_back {
   background-image: url("~@/assets/img/portfolio.jpg");
