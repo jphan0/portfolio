@@ -4,7 +4,7 @@
 
 <div class="logo">
 
-	<a href="http://jphan.info">
+	<a href="https://jphan.info">
 
 		<picture>
 
