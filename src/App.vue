@@ -61,6 +61,7 @@ export default {
 /* cormorant-garamond-300 - latin */
 @font-face {
   font-family: 'Cormorant Garamond';
+  font-display: swap;
   font-style: normal;
   font-weight: 300;
   src: url('../src/assets/fonts/cormorant-garamond-v6-latin-300.eot'); /* IE9 Compat Modes */
@@ -70,12 +71,12 @@ export default {
        url('../src/assets/fonts/cormorant-garamond-v6-latin-300.woff') format('woff'), /* Modern Browsers */
        url('../src/assets/fonts/cormorant-garamond-v6-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../src/assets/fonts/cormorant-garamond-v6-latin-300.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
 }
 
 /* montserrat-300 - latin */
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   font-style: normal;
   font-weight: 300;
   src: url('../src/assets/fonts/montserrat-v12-latin-300.eot'); /* IE9 Compat Modes */
@@ -85,11 +86,11 @@ export default {
        url('../src/assets/fonts/montserrat-v12-latin-300.woff') format('woff'), /* Modern Browsers */
        url('../src/assets/fonts/montserrat-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../src/assets/fonts/montserrat-v12-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
 }
 /* montserrat-regular - latin */
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   font-style: normal;
   font-weight: 400;
   src: url('../src/assets/fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
@@ -99,7 +100,6 @@ export default {
        url('../src/assets/fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('../src/assets/fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../src/assets/fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-  font-display: 'swap';
 }
 
 html, body {
