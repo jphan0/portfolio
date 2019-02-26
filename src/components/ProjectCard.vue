@@ -66,7 +66,6 @@ export default {
 html, body {
   margin: 0;
   background: white;
-  font-family: 'Montserrat', helvetica, arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
 }

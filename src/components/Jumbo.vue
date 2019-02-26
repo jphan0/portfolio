@@ -104,13 +104,12 @@ export default {
 <style scoped>
 
 h1 {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Cormorant Garamond', helvetica, arial, sans-serif;
 	padding-top: 20px;
 	font-weight: 300;
 }
 
 h3 {
-	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	font-size: 1.3em;
 	font-weight: 300;
 	color: #E3E3E3;
@@ -127,7 +126,6 @@ h1, h3 {
 
 a {
 	position: relative;
-	font-family: 'Montserrat', helvetica, arial, sans-serif;
 	font-weight: 300;
 	text-decoration: none;
 	color: #E3E3E3;
