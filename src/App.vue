@@ -6,7 +6,9 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Feb 19" body="This page! This portfolio was built using VueJS and was an excellent entry point to JavaScript frameworks." classy="blur_back portfolio_back" href="https://jphan.info" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Tiddoo" technologies="HTML5, SCSS, Vue, Vuex, Laravel, Pusher, Bootstrap" projectduration="Feb 19" body="From work to play, get stuff done easily using Tiddoo. Tiddoo is a simple to-do web application built with VueJS and Laravel, using Pusher to add realtime functionality." classy="blur_back tiddoo_back" href="https://tiddoo.jphan.info" buttontext="Live Demo"></ProjectCard>
+
+    <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Jan 19" body="This page! Have a geez at some of the work I've done. This portfolio was built with VueJS and Bootstrap, an excellent entry point to JavaScript frameworks." classy="blur_back portfolio_back" href="https://jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Dec 18 - Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." classy="blur_back mfmc_back" href="https://mfmc.jphan.info" buttontext="Live Demo"></ProjectCard>
 
@@ -104,6 +106,14 @@ export default {
 
 html, body {
   font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+
+.no-webp .tiddoo_back {
+  background-image: url("~@/assets/img/tiddoo.jpg");
+}
+
+.webp .tiddoo_back{
+  background-image: url("~@/assets/img/tiddoo.webp");
 }
 
 .no-webp .portfolio_back {
