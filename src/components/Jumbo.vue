@@ -330,7 +330,7 @@ a {
 }
 
 
-@media screen and (min-height: 1400px) {
+@media screen and (min-height: 1300px) {
 	.jumbotron {
 		min-height: 50vh;
 	}
