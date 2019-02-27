@@ -173,7 +173,7 @@ a {
 }
 
 .container {
-	padding-top: 5vh;
+	padding-top: 10vh;
 }
 
 .profile-image {
@@ -276,8 +276,10 @@ a {
 	}
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+	.jumbotron {
+		max-height: 100vh;
+	}
 
 	.logo {
 		display: none;
@@ -292,7 +294,6 @@ a {
 		padding: 30px;
 	}
 
-
 	.navigation {
 		left: 0;
 		right: 0;
@@ -300,27 +301,57 @@ a {
 
 	.navigation a:hover:before {
 		visibility: hidden;
-}
+	}
 
-	h1, h3 {
+	h1{
+		font-size: 4em;
+		padding: 5px;
+
+	}
+
+	h3 {
+		font-size: 1.2em;
 		padding: 5px;
 	}
 
-	.icons span {
-		padding: 2px;
-		font-size: 2em;
+	.icons {
+		padding-top: 10px;
+	}
+
+	.icons img {
+		padding-top: 10px;
+		width: 7vh;
 		margin: 0px 6px;
-		opacity: 0.6;
+	}
+
+	.scroll-down a {
+		bottom: -15px;
 	}
 }
 
-@media screen and (min-height: 1500px) {
+
+@media screen and (min-height: 1400px) {
 	.jumbotron {
 		min-height: 50vh;
 	}
 
+	h1{
+		font-size: 5em;
+		padding: 5px;
+
+	}
+
+	h3 {
+		font-size: 1.6em;
+		padding: 5px;
+	}
+
 	.icons img {
 	width: 4vh;
+	}
+
+	.container {
+		padding-top: 5vh;
 	}
 }
 
