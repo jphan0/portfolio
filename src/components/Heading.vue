@@ -32,7 +32,7 @@ h2:after {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	width: 5%;
+	width: 7vw;
 	background: darkgrey;
 	-o-transition:.5s;
 	-ms-transition:.5s;
@@ -42,17 +42,27 @@ h2:after {
 }
 
 h2:hover:after {
-	width: 7%;
+	width: 9vw;
 	background: orange;
     }
 
 @media screen and (max-width: 768px) {
   h2:after {
-    width: 30%;
+    width: 15vw;
   }
 
   h2:hover:after {
-	width: 35%;
+	width: 20vw;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  h2:after {
+    width: 3vw;
+  }
+
+  h2:hover:after {
+	width: 4vw;
   }
 }
 
