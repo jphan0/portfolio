@@ -28,7 +28,7 @@
 
       <ul>
 
-        <li><a class="btn btn-light btn-sm shadow-sm bg-white rounded" :href="href"><slot></slot> {{ buttontext }} </a></li>
+        <li><a :class="button1" :href="href"><slot></slot> {{ buttontext }} </a></li>
 
       </ul>
 
@@ -36,7 +36,7 @@
 
   </div>
 
-  <div :class="classy"><slot></slot></div>
+  <div :class="cardback"><slot></slot></div>
 
 </div>
 
@@ -48,7 +48,7 @@
 
 export default {
 
-  props: ["title", "body", "technologies", "projectduration", "background", "classy", "href", "buttontext"],
+  props: ["title", "body", "technologies", "projectduration", "background", "cardback", "href", "buttontext", "button1"],
 
 }
 

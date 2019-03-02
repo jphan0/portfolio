@@ -28,7 +28,7 @@ export default {
 
 p {
 	font-size: 0.9em;
-	color: darkgrey;
+	color: #5a5d7a;
 	padding-bottom: 50px;
 }
 
