@@ -4,15 +4,15 @@
 		
 		<a href="https://www.linkedin.com/in/jphan0/">LinkedIn</a>
 
-		<span id="contact-divider">||</span>
+		<span class="contact-divider">||</span>
 
-		<span id="contact-break"><br></span>
+		<span class="contact-break"><br></span>
 
 		<a href="mailto:jphan@sent.com">jphan@sent.com</a>
 
-		<span id="contact-divider">||</span>
+		<span class="contact-divider">||</span>
 
-		<span id="contact-break"><br></span>
+		<span class="contact-break"><br></span>
 
 		<a href="https://github.com/jphan0">GitHub</a>
 
@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 
-#contact-break {
+.contact-break {
 	display: none;
 }
 
@@ -83,11 +83,11 @@ a:hover:before {
 
 @media screen and (max-width: 768px) {
 
-	#contact-divider {
+	.contact-divider {
 		display: none;
 	}
 
-	#contact-break {
+	.contact-break {
 		display: block;
 	}
 
