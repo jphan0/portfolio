@@ -8,11 +8,11 @@
 
 		<picture>
 
-			<source type="image/webp" id="logo" srcset="~@/assets/img/logo.webp">
+			<source type="image/webp" id="site-logo" srcset="~@/assets/img/logo.webp">
 
-			<source type="image/jpeg" id="logo" srcset="~@/assets/img/logo.png">
+			<source type="image/jpeg" id="site-logo" srcset="~@/assets/img/logo.png">
 
-			<img src="~@/assets/img/logo.png" id="logo" alt="logo">
+			<img src="~@/assets/img/logo.png" id="site-logo" alt="logo">
 
 		</picture>
 
@@ -103,7 +103,7 @@ export default {
 
 <style scoped>
 
-#logo {
+#site-logo {
 	position: absolute;
 	max-height: 150%;
 }
