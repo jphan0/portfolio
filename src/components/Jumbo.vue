@@ -8,11 +8,11 @@
 
 		<picture>
 
-			<source type="image/webp" srcset="~@/assets/img/logo.webp" height="40px">
+			<source type="image/webp" id="logo" srcset="~@/assets/img/logo.webp">
 
-			<source type="image/jpeg" srcset="~@/assets/img/logo.png" height="40px">
+			<source type="image/jpeg" id="logo" srcset="~@/assets/img/logo.png">
 
-			<img src="~@/assets/img/logo.png" height="40px">
+			<img src="~@/assets/img/logo.png" id="logo" alt="logo">
 
 		</picture>
 
@@ -39,7 +39,7 @@
 
 			<source type="image/jpeg" srcset="~@/assets/img/head.jpg">
 
-			<img class="profile-image" src="~@/assets/img/head.jpg">
+			<img class="profile-image" src="~@/assets/img/head.jpg" alt="head image">
 
 		</picture>
 
@@ -49,19 +49,19 @@
 
 		<div class="icons text-center"> 
 
-			<img src="../assets/img/devicon/html5.svg" title="HTML5">
+			<img src="../assets/img/devicon/html5.svg" title="HTML5" alt="HTML5">
 
-			<img src="../assets/img/devicon/css3.svg" title="CSS3">
+			<img src="../assets/img/devicon/css3.svg" title="CSS3" alt="CSS3">
 
-			<img src="../assets/img/devicon/sass.svg" title="SCSS">
+			<img src="../assets/img/devicon/sass.svg" title="SCSS" alt="SCSS">
 
-			<img src="../assets/img/devicon/javascript.svg" title="JavaScript">
+			<img src="../assets/img/devicon/javascript.svg" title="JavaScript" alt="JavaScript">
 
-			<img src="../assets/img/devicon/laravel.svg" title="Laravel">
+			<img src="../assets/img/devicon/laravel.svg" title="Laravel" alt="Laravel">
 
-			<img src="../assets/img/devicon/vuejs.svg" title="VueJS">
+			<img src="../assets/img/devicon/vuejs.svg" title="VueJS" alt="VueJS">
 
-			<img src="../assets/img/devicon/git.svg" title="git">
+			<img src="../assets/img/devicon/git.svg" title="git" alt="git">
 
 		</div>
 
@@ -102,6 +102,11 @@ export default {
 
 
 <style scoped>
+
+#logo {
+	position: absolute;
+	max-height: 150%;
+}
 
 h1 {
 	font-family: 'Cormorant Garamond', helvetica, arial, sans-serif;
