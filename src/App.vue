@@ -12,7 +12,7 @@
 
     <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Dec 18 - Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." cardback="blur_back mfmc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://mfmc.jphan.info" buttontext="Live Demo"></ProjectCard>
 
-    <ProjectCard title="ABC Filters" technologies="HTML5, CSS3, jQuery, Laravel" projectduration="Jul 18 - Dec 18" body="Applied techniques learnt throughout university - from web development to database design to project management. This web application was designed for a local business to automate their invoicing system and provide an updated responsive site design." cardback="blur_back abcfilters_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded d-none" href="https://abcf.jphan.info" buttontext="Screenshots"></ProjectCard>
+    <ProjectCard title="ABC Filters" technologies="HTML5, CSS3, jQuery, Laravel, Bootstrap" projectduration="Jul 18 - Dec 18" body="Applied techniques learnt throughout university - from web development to database design to project management. This web application was designed for a local business to automate their invoicing system and provide an updated responsive site design." cardback="blur_back abcfilters_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded d-none" href="https://abcf.jphan.info" buttontext="Screenshots"></ProjectCard>
 
     <Heading heading="Contact" id="contact"></Heading>
 
