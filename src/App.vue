@@ -6,7 +6,7 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Blog" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Apr 19" body="A small personal blog to document projects, provide guides and tutorials, product reviews , and host various photos" cardback="blur_back blog_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://blog.jphan.info" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Blog" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Apr 19" body="A small personal blog to document travels, projects, provide guides and tutorials as well as product reviews, and showcase photos." cardback="blur_back blog_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://blog.jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Tiddoo" technologies="HTML5, SCSS, Vue, Vuex, Laravel, Pusher, Bootstrap" projectduration="Feb 19" body="From work to play, get stuff done easily using Tiddoo. Tiddoo is a simple to-do web application built with VueJS and Laravel, using Pusher to add realtime functionality." cardback="blur_back tiddoo_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://tiddoo.jphan.info" buttontext="Live Demo"></ProjectCard>
 
@@ -111,7 +111,7 @@ html, body {
 }
 
 .no-webp .blog_back {
-  background-image: url("~@/assets/img/blog.jpg");
+  background-image: url("~@/assets/img/blog.jpeg");
 }
 
 .webp .blog_back{
