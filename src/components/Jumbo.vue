@@ -225,6 +225,54 @@ a {
 	z-index: -1;
 }
 
+/*
+.overlay{
+	position:absolute;
+	background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png);
+	-webkit-animation:100s scroll infinite linear;
+	-moz-animation:100s scroll infinite linear;
+	-o-animation:100s scroll infinite linear;
+	-ms-animation:100s scroll infinite linear;
+	animation:100s scroll infinite linear;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+*/
+
 .icons {
 	padding-top: 50px;
 	text-shadow: 2px 2px 4px #000000;
