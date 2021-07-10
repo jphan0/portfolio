@@ -6,7 +6,7 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="May 21" body="An example of a donation form featuring stripe integration, address lookup, donation handles utilising automatic image optimisation, charity details, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="May 21" body="A donation form featuring stripe integration, address lookup, donation handles utilising automatic image optimisation, charity details, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Alpha Omega Consulting" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Jun 19" body="A responsive website for an NDIS provider that delivers high quality care services across Sydney to seniors and to those living with disabilities." cardback="blur_back aoc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://alphaomegaconsulting.com.au" buttontext="Live Site"></ProjectCard>
 
