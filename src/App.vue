@@ -6,7 +6,9 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Alpha Omega Consulting" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Jun 19" body="A responsive website for an NDIS provider that delivers high quality care services across Sydney to seniors and to those living with disabilities." cardback="blur_back aoc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://alphaomegaconsulting.com.au" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="May 21" body="An example of a donation form with features such as donation handles utilising image optimisation upon upload, charity details, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
+
+    <ProjectCard title="Alpha Omega Consulting" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Jun 19" body="A responsive website for an NDIS provider that delivers high quality care services across Sydney to seniors and to those living with disabilities." cardback="blur_back aoc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://alphaomegaconsulting.com.au" buttontext="Live Site"></ProjectCard>
 
     <ProjectCard title="Personal Blog" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Apr 19" body="A small personal blog to document travels, projects, provide guides and tutorials as well as product reviews, and showcase photos." cardback="blur_back blog_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://blog.jphan.info" buttontext="Live Demo"></ProjectCard>
 
@@ -14,7 +16,7 @@
 
     <ProjectCard title="Portfolio" technologies="HTML5, CSS3, Vue, Bootstrap" projectduration="Jan 19" body="This page! Have a geez at some of the work I've done. This portfolio was built with VueJS and Bootstrap, an excellent entry point to JavaScript frameworks." cardback="blur_back portfolio_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://jphan.info" buttontext="Live Demo"></ProjectCard>
 
-    <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." cardback="blur_back mfmc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://mintofamilymedicalcentre.com.au" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Minto Family Medical Centre" technologies="HTML5, CSS3, Laravel, Bootstrap" projectduration="Jan 19" body="A revamped version of a local medical centre's website supporting mobile, tablet, and desktop sizes. Includes updated news section and accounts enabling publication of articles regarding general medical or practice related news." cardback="blur_back mfmc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://mintofamilymedicalcentre.com.au" buttontext="Live Site"></ProjectCard>
 
     <ProjectCard title="ABC Filters" technologies="HTML5, CSS3, jQuery, Laravel, Bootstrap" projectduration="Jul 18 - Dec 18" body="Applied techniques learnt throughout university - from web development to database design to project management. This web application was designed for a local business to automate their invoicing system and provide an updated responsive site design." cardback="blur_back abcfilters_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded d-none" href="https://abcf.jphan.info" buttontext="Screenshots"></ProjectCard>
 
@@ -110,6 +112,14 @@ export default {
 
 html, body {
   font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+
+.no-webp .xyz_back {
+  background-image: url("~@/assets/img/xyz.jpg");
+}
+
+.webp .xyz_back{
+  background-image: url("~@/assets/img/xyz.webp");
 }
 
 .no-webp .aoc_back {
