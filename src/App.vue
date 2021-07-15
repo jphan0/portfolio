@@ -6,7 +6,9 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
-    <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, jQuery, Laravel, Bulma" projectduration="May 21" body="A donation form featuring stripe integration, address lookup, donation handles utilising automatic image optimisation, charity details, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
+    <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, jQuery, Laravel, Bulma" projectduration="May 21" body="A donation form featuring stripe integration, address lookup, donation handles utilising automatic image optimisation, charity selection, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
+
+    <ProjectCard title="Rustled Jimmies" technologies="HTML5, CSS3, JavaScript" projectduration="Dec 20" body="Shhh... no tears. Only dreams now - All is calm, when you let the flow of rustled jimmies take you away. A one hour speedrun project, this page is a homage to one of the greatest sites ever published during the golden era of the internet." cardback="blur_back jimmies_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://rustledjimmies.jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Alpha Omega Consulting" technologies="HTML5, SCSS, Laravel, Bulma" projectduration="Jun 19" body="A responsive website for an NDIS provider that delivers high quality care services across Sydney to seniors and to those living with disabilities." cardback="blur_back aoc_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://alphaomegaconsulting.com.au" buttontext="Live Site"></ProjectCard>
 
@@ -120,6 +122,14 @@ html, body {
 
 .webp .xyz_back{
   background-image: url("~@/assets/img/xyz.webp");
+}
+
+.no-webp .jimmies_back {
+  background-image: url("~@/assets/img/jimmies.jpg");
+}
+
+.webp .jimmies_back{
+  background-image: url("~@/assets/img/jimmies.webp");
 }
 
 .no-webp .aoc_back {
