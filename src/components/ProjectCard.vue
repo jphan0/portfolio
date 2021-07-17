@@ -186,8 +186,8 @@ html, body {
   .project_card {
     width: 85%;
     margin: 70px auto;
-    min-height: 350px;
-    height: auto;
+    /*min-height: 350px;
+*/    height: auto;
   }
 
   .blur_back {
@@ -214,8 +214,8 @@ html, body {
     display: inline-grid;
   }
   .text {
-    padding-top: 50px;
-    padding-bottom: 0px;
+    margin-top: 50px;
+    padding-bottom: 0px !important;
   }
 }
 
