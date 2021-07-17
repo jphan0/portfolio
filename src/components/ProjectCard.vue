@@ -166,7 +166,7 @@ html, body {
 
 @media screen and (min-width: 768px) {
   .project_header {
-    width: 65%;
+    width: 60%;
   }
 
   .description {
@@ -198,7 +198,7 @@ html, body {
   .project_header {
     width: 100%;
     margin-top: 20px;
-    text-shadow: 0 0 10px darkgrey;
+    text-shadow: 0 0 8px white;
   }
 
   .project_card .info_section .project_header .technologies {
@@ -212,6 +212,10 @@ html, body {
   .info_section {
     background: linear-gradient(to top, #e5e6e6 50%, transparent 100%);
     display: inline-grid;
+  }
+  .text {
+    padding-top: 50px
+    padding-bottom: 0px;
   }
 }
 
