@@ -214,7 +214,7 @@ html, body {
     display: inline-grid;
   }
   .text {
-    padding-top: 50px
+    padding-top: 50px;
     padding-bottom: 0px;
   }
 }
