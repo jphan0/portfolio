@@ -6,6 +6,8 @@
 
     <Heading heading="Projects" id="projects"></Heading>
 
+    <ProjectCard title="Spot" technologies="AlpineJS, Laravel, Tailwind" projectduration="August 21" body="A small project to explore the Spotify API, along with two frameworks: Alpine JS and Tailwind CSS. This site allows you to search for tracks present on Spotify and listen to a preview of the song if provided." cardback="blur_back spot_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://spot.jphan.info" buttontext="Live Demo"></ProjectCard>
+
     <ProjectCard title="Donations XYZ" technologies="HTML5, SCSS, jQuery, Laravel, Bulma" projectduration="May 21" body="A donation form featuring stripe integration, address lookup, donation handles utilising automatic image optimisation, charity selection, and pdf invoice generation." cardback="blur_back xyz_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://invoice.jphan.info" buttontext="Live Demo"></ProjectCard>
 
     <ProjectCard title="Rustled Jimmies" technologies="HTML5, CSS3, JavaScript" projectduration="Dec 20" body="Shhh... no tears. Only dreams now - All is calm, when you let the flow of rustled jimmies take you away. A one hour speedrun project, this page is a homage to one of the greatest sites ever published during the golden era of the internet." cardback="blur_back jimmies_back" button1="btn btn-light btn-sm shadow-sm bg-white rounded" href="https://rustledjimmies.jphan.info" buttontext="Live Demo"></ProjectCard>
@@ -114,6 +116,14 @@ export default {
 
 html, body {
   font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+
+.no-webp .spot_back {
+  background-image: url("~@/assets/img/spot.jpg");
+}
+
+.webp .spot_back{
+  background-image: url("~@/assets/img/spot.webp");
 }
 
 .no-webp .xyz_back {
